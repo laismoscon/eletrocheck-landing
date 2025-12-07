@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Custom animations */
+@keyframes pulse-scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.pulse-animation {
+    animation: pulse-scale 2s infinite;
+}
+/* Logo styling */
+img[alt="ElectroCheck Logo"] {
+    transition: transform 0.3s ease;
+}
+
+img[alt="ElectroCheck Logo"]:hover {
+    transform: scale(1.05);
+}
+/* Header and navigation styles */
+nav {
+    transition: all 0.3s ease;
+}
+.nav-link:hover {
+    color: #F7C325;
+}
+.mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.mobile-menu.open {
+    max-height: 500px;
+}
+
+/* Footer styles */
+.social-icon:hover {
+    transform: translateY(-3px);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1E5DA8;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #164785;
+}

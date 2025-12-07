@@ -13,7 +13,6 @@ class CustomFooter extends HTMLElement {
             <div>
               <h3 class="text-xl font-bold mb-4 flex items-center">
                 <img src="logo.png" alt="ElectroCheck Logo" class="w-40 h-auto mr-3">
-ElectroCheck
               </h3>
 <p class="text-gray-300 mb-4">
                 Plataforma web inteligente para gerenciamento de garantias, manutenções e histórico de equipamentos elétricos.
@@ -49,15 +48,15 @@ ElectroCheck
                 </li>
                 <li class="flex items-center text-gray-300">
                   <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
-                  São Paulo, Brasil
+                  Barretos-SP, Brasil
                 </li>
               </ul>
             </div>
           </div>
           
           <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2023 ElectroCheck. Todos os direitos reservados.</p>
-            <p class="mt-2">Desenvolvido com ❤️ para o TCC</p>
+            <p>&copy; 2025 ElectroCheck. Todos os direitos reservados.</p>
+            <p class="mt-2">Desenvolvido para o TCC do Curso de Sistemas de Informação | UniBarretos</p>
           </div>
         </div>
       </footer>

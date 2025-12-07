@@ -1,14 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ElectroCheck - Em Construção</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="fav.png">
+
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -24,6 +28,7 @@
         }
     </script>
 </head>
+
 <body class="bg-ice min-h-screen">
     <header class="bg-white shadow-md">
         <div class="container mx-auto px-4">
@@ -33,6 +38,7 @@
                         <img src="logo.png" alt="ElectroCheck Logo" class="w-24 h-auto mr-3">
                     </a>
                 </div>
+
                 <nav class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="nav-link text-graphite font-medium">Home</a>
                     <a href="#features" class="nav-link text-graphite font-medium">Funcionalidades</a>
@@ -59,119 +65,116 @@
             </div>
         </div>
     </header>
+
     <main class="container mx-auto px-4 py-12">
-<section id="home">
-<div class="max-w-4xl mx-auto text-center mb-16">
-            <h1 class="text-4xl md:text-5xl font-bold text-graphite mb-6">
-                <span class="text-primary">ElectroCheck</span> está em construção!
-            </h1>
-            <p class="text-xl text-graphite mb-8">
-                Uma plataforma web inteligente para gerenciamento de garantias, manutenções e histórico de equipamentos elétricos.
-            </p>
-</div>
-      </section>
 
-      <section id="features" class="py-16">
-        <div class="grid md:grid-cols-3 gap-8 mb-16">
-<div class="bg-white p-6 rounded-lg shadow-md">
-                <div class="text-primary mb-4">
-                    <i data-feather="shield" class="w-10 h-10"></i>
-                </div>
-                <h3 class="text-xl font-bold text-graphite mb-2">Gestão de Garantias</h3>
-                <p class="text-gray-600">Controle centralizado de prazos e documentação de garantias de equipamentos elétricos.</p>
+        <!-- HOME -->
+        <section id="home">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-bold text-graphite mb-6">
+                    <span class="text-primary">ElectroCheck</span> está em construção!
+                </h1>
+                <p class="text-xl text-graphite mb-8">
+                    Uma plataforma web inteligente para gerenciamento de garantias, manutenções e histórico de equipamentos elétricos.
+                </p>
             </div>
-            
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <div class="text-primary mb-4">
-                    <i data-feather="tool" class="w-10 h-10"></i>
-                </div>
-                <h3 class="text-xl font-bold text-graphite mb-2">Histórico de Manutenções</h3>
-                <p class="text-gray-600">Registro completo de todas as intervenções realizadas em cada equipamento.</p>
-            </div>
-            
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <div class="text-primary mb-4">
-                    <i data-feather="bar-chart-2" class="w-10 h-10"></i>
-                </div>
-                <h3 class="text-xl font-bold text-graphite mb-2">Relatórios Inteligentes</h3>
-                <p class="text-gray-600">Geração automática de relatórios e alertas para tomada de decisão.</p>
-            </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="how-it-works">
-        <div class="bg-primary text-white rounded-xl p-8 md:p-12 mb-16">
-<div class="max-w-3xl mx-auto text-center">
-                <h2 class="text-3xl font-bold mb-6">Como vai funcionar?</h2>
-                <div class="space-y-6 text-left">
-                    <div class="flex items-start">
-                        <div class="bg-secondary rounded-full p-2 mr-4 mt-1">
-                            <i data-feather="plus" class="w-5 h-5 text-graphite"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg mb-1">Cadastro de Equipamentos</h3>
-                            <p>Registre a data e local de compra, e todos os detalhes técnicos e documentação dos seus equipamentos elétricos.</p>
-                        </div>
+        <!-- FEATURES -->
+        <section id="features" class="py-16">
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-primary mb-4">
+                        <i data-feather="shield" class="w-10 h-10"></i>
                     </div>
-                    
-                    <div class="flex items-start">
-                        <div class="bg-secondary rounded-full p-2 mr-4 mt-1">
-                            <i data-feather="calendar" class="w-5 h-5 text-graphite"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg mb-1">Monitoramento de Prazos</h3>
-                            <p>Alertas automáticos para vencimento de garantias.</p>
-                        </div>
+                    <h3 class="text-xl font-bold text-graphite mb-2">Gestão de Garantias</h3>
+                    <p class="text-gray-600">Controle centralizado de prazos e documentação de garantias de equipamentos elétricos.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-primary mb-4">
+                        <i data-feather="tool" class="w-10 h-10"></i>
                     </div>
-                    
-                    <div class="flex items-start">
-                        <div class="bg-secondary rounded-full p-2 mr-4 mt-1">
-                            <i data-feather="database" class="w-5 h-5 text-graphite"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg mb-1">Histórico Completo</h3>
-                            <p>Armazenamento seguro de todo o histórico de cada equipamento para auditorias e análises.</p>
-                        </div>
+                    <h3 class="text-xl font-bold text-graphite mb-2">Histórico de Manutenções</h3>
+                    <p class="text-gray-600">Registro completo de todas as intervenções realizadas em cada equipamento.</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-primary mb-4">
+                        <i data-feather="bar-chart-2" class="w-10 h-10"></i>
                     </div>
+                    <h3 class="text-xl font-bold text-graphite mb-2">Relatórios Inteligentes</h3>
+                    <p class="text-gray-600">Geração automática de relatórios e alertas para tomada de decisão.</p>
                 </div>
             </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="about" class="py-16">
-        <div class="text-center">
-<h2 class="text-3xl font-bold text-graphite mb-6">Trabalho de Conclusão de Curso</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto mb-8">
-                O ElectroCheck está sendo desenvolvido como projeto de TCC por Laís Lucas Moscon para oferecer uma solução completa para gestão de equipamentos elétricos, com tecnologia moderna e interface intuitiva.
-            </p>
-            <img src="http://static.photos/technology/1024x576/42" alt="Tecnologia" class="mx-auto rounded-lg shadow-lg max-w-full h-auto">
-        </div>
-      </section>
+        <!-- ABOUT -->
+        <section id="about" class="py-16">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold text-graphite mb-6">Trabalho de Conclusão de Curso</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-8">
+                    O ElectroCheck está sendo desenvolvido como projeto de TCC por Laís Lucas Moscon para oferecer uma solução completa para gestão de equipamentos elétricos, com tecnologia moderna e interface intuitiva.
+                </p>
+                <img src="http://static.photos/technology/1024x576/42" alt="Tecnologia" class="mx-auto rounded-lg shadow-lg max-w-full h-auto">
+            </div>
+        </section>
 
-      <section id="contact" class="py-16 bg-white rounded-lg shadow-md max-w-4xl mx-auto p-8 mb-16">
-        <h2 class="text-3xl font-bold text-graphite mb-8 text-center">Contato</h2>
-        <form class="max-w-md mx-auto">
-          <div class="mb-4">
-            <label for="name" class="block text-graphite font-medium mb-2">Nome</label>
-            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
-          </div>
-          <div class="mb-4">
-            <label for="email" class="block text-graphite font-medium mb-2">Email</label>
-            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
-          </div>
-          <div class="mb-4">
-            <label for="message" class="block text-graphite font-medium mb-2">Mensagem</label>
-            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
-          </div>
-          <button type="submit" class="w-full bg-primary hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
-            Enviar Mensagem
-          </button>
-        </form>
-      </section>
+        <!-- CONTACT -->
+        <section id="contact" class="py-16 bg-white rounded-lg shadow-md max-w-4xl mx-auto p-8 mb-16">
+            <h2 class="text-3xl font-bold text-graphite mb-8 text-center">Contato</h2>
+
+            <!-- FORMULARIO FORMSubmit -->
+            <form action="https://formsubmit.co/meueletrocheck@gmail.com" method="POST" class="max-w-md mx-auto">
+
+                <!-- Honeypot anti-spam -->
+                <input type="text" name="_honey" style="display:none">
+
+                <!-- Desabilitar CAPTCHA -->
+                <input type="hidden" name="_captcha" value="false">
+
+                <!-- Redirecionamento -->
+                <input type="hidden" name="_next" value="https://www.eletrocheck.com.br/sucesso.html">
+
+                <!-- Template formatado -->
+                <input type="hidden" name="_template" value="table">
+
+                <div class="mb-4">
+                    <label for="nome" class="block text-graphite font-medium mb-2">Nome</label>
+                    <input type="text" name="nome" id="nome" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                </div>
+
+                <div class="mb-4">
+                    <label for="email" class="block text-graphite font-medium mb-2">Email</label>
+                    <input type="email" name="email" id="email" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                </div>
+
+                <div class="mb-4">
+                    <label for="whatsapp" class="block text-graphite font-medium mb-2">WhatsApp</label>
+                    <input type="text" name="whatsapp" id="whatsapp" required placeholder="(XX) 9XXXX-XXXX"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                </div>
+
+                <div class="mb-4">
+                    <label for="mensagem" class="block text-graphite font-medium mb-2">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="4" required
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-primary hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300">
+                    Enviar Mensagem
+                </button>
+            </form>
+        </section>
     </main>
+
     <footer class="bg-graphite text-white py-12">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-3 gap-8">
+
                 <div>
                     <h3 class="text-xl font-bold mb-4 flex items-center">
                         <img src="logo.png" alt="ElectroCheck Logo" class="w-20 h-auto mr-3">
@@ -180,7 +183,7 @@
                         Plataforma web inteligente para gerenciamento de garantias, manutenções e histórico de equipamentos elétricos.
                     </p>
                 </div>
-                
+
                 <div>
                     <h3 class="text-xl font-bold mb-4">Links Úteis</h3>
                     <ul class="space-y-2">
@@ -189,7 +192,7 @@
                         <li><a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contato</a></li>
                     </ul>
                 </div>
-                
+
                 <div>
                     <h3 class="text-xl font-bold mb-4">Contato</h3>
                     <ul class="space-y-2">
@@ -198,34 +201,32 @@
                             contato@eletrocheck.com.br
                         </li>
                         <li class="flex items-center text-gray-300">
-                  <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
-                  Barretos-SP, Brasil
-                </li>
-              </ul>
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2"></i>
+                            Barretos-SP, Brasil
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-          
-          <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 ElectroCheck. Todos os direitos reservados.</p>
-            <p class="mt-2">Desenvolvido para o TCC do Curso de Sistemas de Informação | UniBarretos</p>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 ElectroCheck. Todos os direitos reservados.</p>
+                <p class="mt-2">Desenvolvido para o TCC do Curso de Sistemas de Informação | UniBarretos</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
+
     <script>
         feather.replace();
-        
-        // Mobile menu toggle
+
         const menuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
-        
+
         menuButton.addEventListener('click', () => {
             mobileMenu.classList.toggle('open');
             const icon = menuButton.querySelector('i');
-            if (mobileMenu.classList.contains('open')) {
-                icon.setAttribute('data-feather', 'x');
-            } else {
-                icon.setAttribute('data-feather', 'menu');
-            }
+            icon.setAttribute('data-feather', mobileMenu.classList.contains('open') ? 'x' : 'menu');
             feather.replace();
         });
     </script>

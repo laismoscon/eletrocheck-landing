@@ -24,7 +24,6 @@ class CustomHeader extends HTMLElement {
             <div class="flex items-center">
               <a href="/" class="flex items-center">
                 <img src="logo.png" alt="ElectroCheck Logo" class="w-48 h-auto mr-3">
-<span class="text-xl font-bold text-graphite">ElectroCheck</span>
               </a>
 </div>
             
